@@ -1,0 +1,94 @@
+.App {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Tabs Styles */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid black;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab.active {
+  background-color: #ccc;
+}
+
+.tab:hover {
+  background-color: #aaa;
+}
+
+/* Tab Content Styles */
+.tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.tab-content-item {
+  display: none;
+}
+
+.tab-content-item.active {
+  display: block;
+}
+/* Auto complete css */
+.autocomplete-search {
+  position: relative;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #eee;
+}
+
+/* StarRating.css */
+
+.star-rating {
+  /* display: flex; */
+  align-items: center;
+}
+
+.star {
+  color: #ddd;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.star-filled {
+  color: #ffd700; /* Gold color for filled stars */
+}
+
+.star:hover {
+  color: #ffd700; /* Change color on hover */
+}
