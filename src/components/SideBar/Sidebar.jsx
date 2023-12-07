@@ -15,7 +15,7 @@ const Sidebar = () => {
 
    {<div className={`sidebar ${isOpen ? 'open' : ''}`}>
    <button className="hamburger" onClick={toggleSidebar}>
-        ☰ 
+        {isOpen?"✖": "☰" } 
       </button>
       <div className="menu">
         {/* Add your menu items here */}
