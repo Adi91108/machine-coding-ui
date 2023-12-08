@@ -13,6 +13,10 @@
 .sidebar.open {
   left: 0;
 }
+.hamburger.open {
+  left : 260px;
+  transition: left ease-in ease-out 0.3ms;
+}
 
 .hamburger {
   position: fixed;
@@ -23,7 +27,7 @@
   border: none;
   color: red;
   cursor: pointer;
-  z-index:  2;
+  /* z-index:  2; */
 }
 
 .menu {

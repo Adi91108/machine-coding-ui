@@ -12,7 +12,7 @@ export default function SearchBarPage() {
     fetch(
       `${url}?page=${page}&per_page=${per_page}&${
         beerName ? `beer_name=${beerName}` : ""
-      }`,
+      }`
     )
       .then((resp) => resp.json())
       .then((list) => {
@@ -34,7 +34,7 @@ export default function SearchBarPage() {
   return (
     <div className="App">
       <div>
-        <label htmlFor="page">Page</label>
+        <label htmlFor="page">Page : </label>
         <select
           id="page"
           onChange={(e) => {
@@ -52,24 +52,27 @@ export default function SearchBarPage() {
           <option>9</option>
           <option>10</option>
         </select>
+        <br/>
         <input
           placeholder="Enter beer name"
           onChange={(e) => setBeerName(e.target.value)}
         />
       </div>
       {list.map((e) => (
-        <Beer {...e} key={e.name} />
+        <Beer {...e} key={e.id} />
       ))}
     </div>
   );
 }
 
-const Beer = ({ name, tagline, image_url }) => {
+const Beer = ({id, name, tagline, image_url, description }) => {
   return (
     <div>
+      <h1>{id}</h1>
       <h2>{name}</h2>
-      <p>{tagline}</p>
-      <img src={image_url} alt={name} width="100px" />
+      <p>Tag line : <span style={{background:"purple", color:"whitesmoke"}}>{tagline}</span></p>
+      <p>{description}</p>
+      <img src={image_url} alt={name} width="100px" style={{objectFit:"cover"}} />
     </div>
   );
 };

@@ -3,13 +3,14 @@ import './App.css'
 import Sidebar from './components/SideBar/Sidebar'
 // import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll'
 // import SearchBarPage from './components/SearchBar with Pagination/SeacrhBarPage'
-import { TicTacToe } from './components/TicTacToe/TicTacToe'
+// import { TicTacToe } from './components/TicTacToe/TicTacToe'
 // import Carousel from './components/carousel/Carousel'
 // import Accordian from './components/Accordian/Accordian'
 // import AutoComplete from './components/AutoCompleteSearch/AutoComplete'
 // import Index from './components/Modal'
 // import StarRating from './components/StarRating/StarRating'
 // import Tabs from './components/Tabs/Tabs'
+import Practice from './Practice'
 
 function App() {
   
@@ -25,6 +26,7 @@ function App() {
      {/* <TicTacToe/> */}
      {/* <SearchBarPage/> */}
      <Sidebar/>
+     {/* <Practice/> */}
 
     </>
   )

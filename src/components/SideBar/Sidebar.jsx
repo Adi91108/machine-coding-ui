@@ -13,8 +13,8 @@ const Sidebar = () => {
     <>
     
 
-   {<div className={`sidebar ${isOpen ? 'open' : ''}`}>
-   <button className="hamburger" onClick={toggleSidebar}>
+   <div className={`sidebar ${isOpen ? 'open' : ''}`}>
+   <button className={`hamburger ${isOpen ? 'open' : ''}`} onClick={toggleSidebar}>
         {isOpen?"✖": "☰" } 
       </button>
       <div className="menu">
@@ -23,8 +23,8 @@ const Sidebar = () => {
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
       </div>
+    </div>
 
-    </div>}
     </>
   );
 };
