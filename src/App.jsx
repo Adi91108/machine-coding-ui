@@ -5,13 +5,13 @@ import './App.css'
 // import SearchBarPage from './components/SearchBar with Pagination/SeacrhBarPage'
 // import Carousel from './components/carousel/Carousel'
 // import Accordian from './components/Accordian/Accordian'
-// import AutoComplete from './components/AutoCompleteSearch/AutoComplete'
+import AutoComplete from './components/AutoCompleteSearch/AutoComplete'
 // import Index from './components/Modal'
 // import StarRating from './components/StarRating/StarRating'
 // import Tabs from './components/Tabs/Tabs'
 // import Practice from './Practice'
 // import NestedComment from './components/NestedComment/NestedComment'
-import TicTacToe from "./components/TicTacToe/TicTacToe"
+// import TicTacToe from "./components/TicTacToe/TicTacToe"
 
 function App() {
   
@@ -19,12 +19,12 @@ function App() {
     <>
      {/* <Tabs/> */}
      {/* <StarRating/> */}
-     {/* <AutoComplete/> */}
+     <AutoComplete/>
      {/* <Index/> */}
      {/* <Accordian/> */}
      {/* <Carousel/> */}
      {/* <InfiniteScroll/> */}
-     <TicTacToe/>
+     {/* <TicTacToe/> */}
      {/* <SearchBarPage/> */}
      {/* <Sidebar/> */}
      {/* <Practice/> */}
