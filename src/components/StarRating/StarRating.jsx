@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
-
+import './Styles.css';
 const StarRating = () => {
   const [rating, setRating] = useState(0);
   const [ratingHover, setRatingHover] = useState(0);

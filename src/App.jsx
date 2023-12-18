@@ -5,9 +5,9 @@ import './App.css'
 // import SearchBarPage from './components/SearchBar with Pagination/SeacrhBarPage'
 // import Carousel from './components/carousel/Carousel'
 // import Accordian from './components/Accordian/Accordian'
-import AutoComplete from './components/AutoCompleteSearch/AutoComplete'
+// import AutoComplete from './components/AutoCompleteSearch/AutoComplete'
 // import Index from './components/Modal'
-// import StarRating from './components/StarRating/StarRating'
+import StarRating from './components/StarRating/StarRating'
 // import Tabs from './components/Tabs/Tabs'
 // import Practice from './Practice'
 // import NestedComment from './components/NestedComment/NestedComment'
@@ -18,8 +18,8 @@ function App() {
   return (
     <>
      {/* <Tabs/> */}
-     {/* <StarRating/> */}
-     <AutoComplete/>
+     <StarRating/>
+     {/* <AutoComplete/> */}
      {/* <Index/> */}
      {/* <Accordian/> */}
      {/* <Carousel/> */}

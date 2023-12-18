@@ -41,24 +41,3 @@
   display: block;
 }
 
-/* StarRating.css */
-
-.star-rating {
-  /* display: flex; */
-  align-items: center;
-}
-
-.star {
-  color: #ddd;
-  font-size: 24px;
-  cursor: pointer;
-  transition: color 0.3s ease; /* Add transition for smooth color change */
-}
-
-.star-filled {
-  color: #ffd700; /* Gold color for filled stars */
-}
-
-.star:hover {
-  color: #ffd700; /* Change color on hover */
-}
