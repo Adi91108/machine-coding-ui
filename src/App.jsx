@@ -1,6 +1,7 @@
 
 import './App.css'
 import Pagination from './components/Pagination/Pagination'
+import Todo from './components/TaskManager/To-Do/Todo'
 // import Sidebar from './components/SideBar/Sidebar'
 // import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll'
 // import SearchBarPage from './components/SearchBar with Pagination/SeacrhBarPage'
@@ -30,7 +31,8 @@ function App() {
      {/* <Sidebar/> */}
      {/* <Practice/> */}
      {/* <NestedComment/> */}
-     <Pagination/>
+     {/* <Pagination/> */}
+     <Todo/>
 
     </>
   )
