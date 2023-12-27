@@ -1,5 +1,6 @@
 
 import './App.css'
+import Pagination from './components/Pagination/Pagination'
 // import Sidebar from './components/SideBar/Sidebar'
 // import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll'
 // import SearchBarPage from './components/SearchBar with Pagination/SeacrhBarPage'
@@ -7,7 +8,7 @@ import './App.css'
 // import Accordian from './components/Accordian/Accordian'
 // import AutoComplete from './components/AutoCompleteSearch/AutoComplete'
 // import Index from './components/Modal'
-import StarRating from './components/StarRating/StarRating'
+// import StarRating from './components/StarRating/StarRating'
 // import Tabs from './components/Tabs/Tabs'
 // import Practice from './Practice'
 // import NestedComment from './components/NestedComment/NestedComment'
@@ -18,7 +19,7 @@ function App() {
   return (
     <>
      {/* <Tabs/> */}
-     <StarRating/>
+     {/* <StarRating/> */}
      {/* <AutoComplete/> */}
      {/* <Index/> */}
      {/* <Accordian/> */}
@@ -29,6 +30,7 @@ function App() {
      {/* <Sidebar/> */}
      {/* <Practice/> */}
      {/* <NestedComment/> */}
+     <Pagination/>
 
     </>
   )
