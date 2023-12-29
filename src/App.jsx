@@ -1,6 +1,8 @@
 
 import './App.css'
+import { CountdownTimer } from './components/CountDownTimer/CountdownTimer'
 import Pagination from './components/Pagination/Pagination'
+import { ProgressBar } from './components/ProgressBar/ProgressBar'
 import Todo from './components/TaskManager/To-Do/Todo'
 // import Sidebar from './components/SideBar/Sidebar'
 // import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll'
@@ -32,8 +34,9 @@ function App() {
      {/* <Practice/> */}
      {/* <NestedComment/> */}
      {/* <Pagination/> */}
-     <Todo/>
-
+     {/* <Todo/> */}
+     {/* <CountdownTimer/> */}
+     <ProgressBar/>
     </>
   )
 }

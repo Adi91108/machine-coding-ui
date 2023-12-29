@@ -1,0 +1,40 @@
+.progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.progress p{
+    position: absolute;
+    background-color: rgb(224, 220, 220);
+    width: 500px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow-x: hidden;
+    
+}
+
+.span{
+    position: absolute;
+    z-index: 4;
+    text-align: center;
+    margin-left: -0.75rem;
+}
+
+
+.div{
+    position: absolute;
+    background-color: #00c251;
+    color: #fff;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    /* max-width: 500px; */
+    width: 500px;
+  }
