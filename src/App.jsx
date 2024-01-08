@@ -1,9 +1,13 @@
 
 import './App.css'
 import { CountdownTimer } from './components/CountDownTimer/CountdownTimer'
+import InfiniteScrollSearch from './components/InfiniteScrollApi/Corrected/InfiniteScrollSearch'
+import InfiniteScroll from './components/InfiniteScrollApi/InfiniteScroll'
 import Pagination from './components/Pagination/Pagination'
 import { ProgressBar } from './components/ProgressBar/ProgressBar'
 import Todo from './components/TaskManager/To-Do/Todo'
+import { ThemeProvider } from './components/ThemeToggle/Theme-Context'
+import { ToggleTheme } from './components/ThemeToggle/ToggleTheme'
 // import Sidebar from './components/SideBar/Sidebar'
 // import InfiniteScroll from './components/InfiniteScroll/InfiniteScroll'
 // import SearchBarPage from './components/SearchBar with Pagination/SeacrhBarPage'
@@ -36,7 +40,13 @@ function App() {
      {/* <Pagination/> */}
      {/* <Todo/> */}
      {/* <CountdownTimer/> */}
-     <ProgressBar/>
+     {/* <ProgressBar/> */}
+     {/* <InfiniteScroll/> */}
+     {/* <InfiniteScrollSearch/> */}
+     <ThemeProvider>
+     <ToggleTheme/>
+
+     </ThemeProvider>
     </>
   )
 }
